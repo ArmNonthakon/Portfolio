@@ -28,7 +28,7 @@ jobs:
         run: npm install -g vercel
         
       - name: Login to Vercel
-        run: vercel login --email nonthakon.t3@gmail.com --token 29iXTmqtP6bpcscmx0s06MFw # Use token for better security
+        run: vercel login --email nonthakon.t3@gmail.com --token A66FFa2PJairIfVUSHPJyezj # Use token for better security
         
       - name: Deploy to Vercel
         run: vercel --prod
