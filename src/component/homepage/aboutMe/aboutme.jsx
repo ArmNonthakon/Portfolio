@@ -17,8 +17,6 @@ function Aboutme() {
                         <h1>Nonthakon Tansamai (Arm)</h1>
                         <h1>Student</h1>
                     </div>
-                    
-                    <a href="/contact">fds</a>
                     <a href="/contact"><button>CONTACT ME</button></a>
                 </div>
             </div>
