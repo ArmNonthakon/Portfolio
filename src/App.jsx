@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     path: "/skill",
     element: <Skill />,
   }
-]{
+],{
   basename: '/field-logger'
 });
 
