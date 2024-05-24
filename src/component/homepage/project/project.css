@@ -1,0 +1,59 @@
+.section-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}.project-topic:after{
+    content: "";
+    animation: projectText 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.contain-project{
+    margin: 50px 70px;
+   
+}
+.contain-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-text{
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.clikToPage{
+    display: flex;
+    font-size: 35px;
+    margin-left: 40px;
+    color: rgb(220, 100, 1);
+    margin-top: 10px;
+}
+.clikToPage p{
+    margin-right: 10px;
+}
+@keyframes projectText {
+    0%{
+        content: "P";
+    }
+    20%{
+        content: "Pr";
+    }
+    36%{
+        content: "Pro";
+    }
+    52%{
+        content: "Proj";
+    }
+    68%{
+        content: "Proje";
+    }
+    84%{
+        content: "Projec";
+    }
+    100%{
+        content: "Project";
+    }
+}

@@ -6,6 +6,7 @@ import Aboutme from './component/homepage/aboutMe/aboutme'
 import Skill from './component/homepage/skill/skill'
 import Project from './component/homepage/project/project'
 import Footer from './component/footer/footer'
+import Contact from './component/homepage/contact/contact'
 import './App.css'
 import {
   createBrowserRouter,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/project",
     element: <Project/>,
+  }
+  ,{
+    path: "/contact",
+    element: <Contact/>,
   }
 ]);
 

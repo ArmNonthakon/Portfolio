@@ -21,7 +21,7 @@
     width: 700px;
     height: 450px;
     margin-top: 0px;
-    background-image: url(src/assets/dffdas.png);
+    background-image: url(/dffdas.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 650px;
@@ -127,7 +127,7 @@
 }
 
 .group-roadmap #dot1 {
-    left: 70px;
+    left: 80px;
 }
 
 .group-roadmap #rec1 {
@@ -137,17 +137,17 @@
 }
 
 .group-roadmap #dot2 {
-    left: 475px;
+    left: 530px;
 }
 
 .group-roadmap #rec2 {
     top: 20px;
-    left: 510px;
-    width: 400px;
+    left: 450px;
+    width: 550px;
 }
 
 .group-roadmap #dot3 {
-    left: 880px;
+    left: 985px;
 }
 
 .group-roadmap {

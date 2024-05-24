@@ -1,0 +1,64 @@
+.section-contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}.contact-topic:after{
+    content: "";
+    animation: contactText 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.section-contain-contact{
+    margin: 50px 70px;
+}
+.contain-contact{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+.contain-contact:last-child{
+    margin-bottom: 50px;
+}
+.contain-contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 38px;
+}
+.item-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes contactText {
+    0%{
+        content: "C";
+    }
+    29%{
+        content: "Co";
+    }
+    40%{
+        content: "Con";
+    }
+    51%{
+        content: "Conta";
+    }
+    62%{
+        content: "Contac";
+    }
+    73%{
+        content: "Contact";
+    }
+    84%{
+        content: "Contact ";
+    }
+    95%{
+        content: "Contact m";
+    }
+    100%{
+        content: "Contact me";
+    }
+}
