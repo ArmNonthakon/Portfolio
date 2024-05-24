@@ -1,0 +1,151 @@
+.section-one-aboutme {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name-pic {
+    text-align: end;
+    width: 500px;
+    height: 500px;
+    color: #fda400;
+    font-size: 21px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.Pic-personal {
+    width: 700px;
+    height: 600px;
+    margin-top: 20px;
+    background-image: url(src/assets/12242342-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 600px;
+
+}
+
+.pic-deco {
+    background-color: #020e6b;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    bottom: 24px;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.sec-text {
+    width: 40%;
+    text-align: end;
+}
+
+.sec-text button {
+    background-color: #EBAA00;
+    border-radius: 20px;
+    color: black;
+    padding: 15px 17px;
+    width: 50%;
+    font-size: 28px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.sec-text-name {
+    color: white;
+    margin-top: 100px;
+    font-size: 36px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: textcolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes textcolor {
+    0% {
+        color: white;
+    }
+
+    100% {
+        color: rgb(0, 0, 0);
+    }
+}
+
+.text {
+    overflow-wrap: break-word;
+}
+
+.content-text {
+    color: white;
+    margin: 50px 10%;
+    font-size: 28px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+
+.education {
+    color: white;
+    margin: 50px 10%;
+    font-size: 28px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roadmap{
+    position: relative;
+    display: flex;
+}
+.dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+.rec{
+    width: 300px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+}
+.group-roadmap #dot1{
+    left: 70px;
+}
+.group-roadmap #rec1{
+    top: 20px;
+    left: 118px;
+    width: 400px;
+}
+.group-roadmap #dot2{
+    left: 475px;
+}
+.group-roadmap #rec2{
+    top: 20px;
+    left: 510px;
+    width: 400px;
+}
+.group-roadmap #dot3{
+    left: 880px;
+}
+.group-roadmap{
+    position: relative;
+    align-items: center;
+    height: 70px;
+    margin: 20px 0px;
+}
+.education-road{
+    display: flex;
+    justify-content: space-around;
+}
+.education-road p{
+    width: 20%;
+}
