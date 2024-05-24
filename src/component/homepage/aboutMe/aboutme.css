@@ -99,10 +99,12 @@
     font-weight: 400;
     font-style: normal;
 }
-.roadmap{
+
+.roadmap {
     position: relative;
     display: flex;
 }
+
 .dot {
     height: 50px;
     width: 50px;
@@ -111,41 +113,92 @@
     position: absolute;
 }
 
-.rec{
+.rec {
     width: 300px;
     height: 15px;
     background-color: black;
     position: absolute;
 }
-.group-roadmap #dot1{
+
+.group-roadmap #dot1 {
     left: 70px;
 }
-.group-roadmap #rec1{
+
+.group-roadmap #rec1 {
     top: 20px;
     left: 118px;
     width: 400px;
 }
-.group-roadmap #dot2{
+
+.group-roadmap #dot2 {
     left: 475px;
 }
-.group-roadmap #rec2{
+
+.group-roadmap #rec2 {
     top: 20px;
     left: 510px;
     width: 400px;
 }
-.group-roadmap #dot3{
+
+.group-roadmap #dot3 {
     left: 880px;
 }
-.group-roadmap{
+
+.group-roadmap {
     position: relative;
     align-items: center;
     height: 70px;
     margin: 20px 0px;
 }
-.education-road{
+
+.education-road {
     display: flex;
     justify-content: space-around;
 }
-.education-road p{
+
+.education-road p {
     width: 20%;
+}
+
+
+
+.about-me-animation:after {
+    content: "";
+    animation: textAppear 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes textAppear {
+    0% {
+        content: "A";
+    }
+
+    14% {
+        content: "Ab";
+    }
+
+    28% {
+        content: "Abo";
+    }
+
+    42% {
+        content: "Abou";
+    }
+
+    56% {
+        content: "About";
+    }
+
+    70% {
+        content: "About";
+    }
+
+    84% {
+        content: "About m";
+    }
+
+    100% {
+        content: "About me";
+    }
 }

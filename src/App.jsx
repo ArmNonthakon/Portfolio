@@ -3,16 +3,33 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './component/navbar/navbar'
 import Aboutme from './component/homepage/aboutMe/aboutme'
+import Skill from './component/homepage/skill/skill'
 import './App.css'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Aboutme />
+  },
+  {
+    path: "/skill",
+    element: <Skill />,
+  }
+]);
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar/>
-      <Aboutme/>
+      <RouterProvider router={router} />
       
     </>
   )

@@ -19,7 +19,7 @@ function Aboutme() {
             </div>
             <div className='content-text'>
                 <h1 className='about-me-animation'>
-                    About me
+                    
                 </h1>
                 <p><span style={{ marginLeft: "50px" }}>        </span>I am studying computer science at Silpakorn University. I'm a third-year student that interested in a web developer job in an internship. I used to do many projects such as website e-commerce, simple web chat, machine learning for classifying fake news</p>
 
