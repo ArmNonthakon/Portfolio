@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import Navbar from './component/navbar/navbar'
 import Aboutme from './component/homepage/aboutMe/aboutme'
 import Skill from './component/homepage/skill/skill'
+import Project from './component/homepage/project/project'
+import Footer from './component/footer/footer'
 import './App.css'
 import {
   createBrowserRouter,
@@ -19,7 +21,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/skill",
-    element: <Skill />,
+    element: <Skill/>,
+  },
+  {
+    path: "/project",
+    element: <Project/>,
   }
 ]);
 
@@ -28,9 +34,16 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Navbar/>
-      <RouterProvider router={router} />
+      <div class="main">
+      <Navbar/>  
       
+        <RouterProvider router={router} />
+      <div className="Footer">
+        <Footer></Footer>
+      </div>
+        
+      
+    </div>
     </>
   )
 }

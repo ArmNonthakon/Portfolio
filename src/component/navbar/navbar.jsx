@@ -5,14 +5,12 @@ function Navbar() {
         <>
             <nav>
                 <div className="pic-block">
-                
                 </div>
                 
-                <a href="">HOME</a>
-                <a href="">ABOUT ME</a>
-                <a href="">SKILL</a>
-                <a href="">PROJECT</a>
-                <a href="">CONTACT ME</a>
+                <a href="/">ABOUT ME</a>
+                <a href="/skill">SKILL</a>
+                <a href="/project">PROJECT</a>
+                <a href="/contact">CONTACT ME</a>
             </nav>
         </>)
 }

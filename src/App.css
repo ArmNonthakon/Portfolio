@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+  }
+  
+  /* Ensure the body and html take up full height */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Wrapper to use flexbox layout */
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Content area grows to fill the remaining space */
+  
+  /* Footer styles */
+  .Footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  

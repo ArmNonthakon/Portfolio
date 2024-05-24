@@ -1,0 +1,58 @@
+.section-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.skill-block{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.section-show-skill{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10%;
+    row-gap: 10%;
+}
+.contain-skill{
+    display: flex;
+    justify-content: flex-start;
+}
+.skill-topic:after{
+    content: "";
+    animation: skillText 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes skillText {
+    0%{
+        content: "S";
+    }
+    20%{
+        content: "Sk";
+    }
+    40%{
+        content: "Ski";
+    }
+    60%{
+        content: "Skil";
+    }
+    80%{
+        content: "Skill";
+    }
+    100%{
+        content: "Skill";
+    }
+}

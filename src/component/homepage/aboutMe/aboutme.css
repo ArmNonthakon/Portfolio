@@ -2,6 +2,9 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
+    background-color: #dec088;
+    z-index: -2;
+    height: 450px;
 }
 
 .name-pic {
@@ -16,23 +19,26 @@
 
 .Pic-personal {
     width: 700px;
-    height: 600px;
-    margin-top: 20px;
-    background-image: url(public/12242342-removebg-preview.png);
+    height: 450px;
+    margin-top: 0px;
+    background-image: url(src/assets/dffdas.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 600px;
+    background-position: left top;
+    background-size: 650px;
+    z-index: 100;
 
 }
 
 .pic-deco {
-    background-color: #020e6b;
-    width: 600px;
+    background-color: #898927;
+    width: 580px;
     height: 400px;
     position: absolute;
-    bottom: 24px;
-    z-index: -1;
-    border-radius: 50px;
+    bottom: 48px;
+    z-index: 0;
+    border-radius: 20px;
+    opacity: 4%;
+    border: 2px solid black;
 }
 
 .sec-text {

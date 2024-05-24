@@ -1,12 +1,13 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 10px;
+    width: 80%;
+    padding: 14px 16px;
     position: sticky;
     top: 0;
     z-index: 1;
+    font-size: 26px;
 }
 nav a {
     text-decoration: none;
