@@ -18,6 +18,7 @@ function Aboutme() {
                         <h1>Student</h1>
                     </div>
                     <a href="/contact"><button>CONTACT ME</button></a>
+                    
                 </div>
             </div>
             <div className='content-text'>
