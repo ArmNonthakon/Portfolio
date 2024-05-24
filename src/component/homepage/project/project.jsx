@@ -9,7 +9,7 @@ function Project() {
             <div className='contain-project'>
                 <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px"}} >Catcat </h2>
                 <div className='contain-pic'>
-                    <img src="public/MY CAT - Google Chrome 5_24_2024 11_42_57 PM.png" width="95%" alt="" />
+                    <img src="/MY_CAT.png" width="95%" alt="" />
                 </div>
                 <div className='contain-text'>
                 <p style={{ color: "white" ,marginLeft:"40px",marginTop:"20px"}} ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้เกี่ยวกับเว็บไซต์การเก็บข้อมูลรูปภาพ ชื่อ เพศ อายุ สี พันธ์ของน้องแมวแต่ละตัว ภายใรเว็บก็มีฟังก์ชั่นแสดงข้อมูล สามารถเลือกแสดงประเภทข้อมูลได้ว่าต้องการให้แสดงน้องแมวเพศไหน สีอะไร
@@ -31,7 +31,7 @@ function Project() {
 
                 <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Fake news machine learning </h2>
                 <div className='contain-pic'>
-                    <img src="public/Fake_news.py - newCat - Visual Studio Code 5_25_2024 12_13_15 AM.png" width="95%" alt="" />
+                    <img src="/Fake_news.png" width="95%" alt="" />
                 </div>
                 <div className='contain-text'>
                 <p style={{ color: "white" ,marginLeft:"40px",marginTop:"20px"}} ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้ได้นำ Machine learning มาจำแนกข่าวว่าข่าวใดที่น่าจะเป็นข่าวเท็จ ข่าวใดเป็นข่าวจริง โดยใช้วิธีจำแนกจะจำแนกจากบทความในเนื้อข่าว โดยวิธี NLP </p>
@@ -46,7 +46,7 @@ function Project() {
 
                 <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >4king </h2>
                 <div className='contain-pic'>
-                    <img src="public/4kings - Google Chrome 5_25_2024 12_22_55 AM.png" width="95%" alt="" />
+                    <img src="/4kings.png" width="95%" alt="" />
                 </div>
                 <div className='contain-text'>
                 <p style={{ color: "white" ,marginLeft:"40px",marginTop:"20px"}} ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้ได้นำ Machine learning มาช่วยจำแนกจัดสรรว่าสมาชิกแต่ละคนควรอยู่สถาบันใด และลอง Deploy ขึ้น onrender</p>
