@@ -48,7 +48,7 @@
 
 .sec-text button {
     background-color: #EBAA00;
-    border-radius: 20px;
+    border-radius: 22px;
     color: black;
     padding: 15px 17px;
     width: 50%;
@@ -58,6 +58,7 @@
     font-style: normal;
     margin-top: 5px;
     cursor: pointer;
+
 }
 
 .sec-text-name {
