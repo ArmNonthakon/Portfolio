@@ -4,7 +4,8 @@ import './skill.css'
 function Skill() {
     return (
         <>
-        <h1>Skill</h1>
+        <h1 style={{marginTop:"100px", marginLeft:"200px"}}>Skill</h1>
+        
         </>
     )
 }
