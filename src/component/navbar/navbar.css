@@ -14,9 +14,10 @@ nav a {
 }
 .pic-block {
     width: 100px;
-    height: 50px;
+    height: 51px;
     background-image: url(/assets/signature.png);
     background-size: 270px;
     background-repeat: no-repeat;
     background-position: center;
+
 }
