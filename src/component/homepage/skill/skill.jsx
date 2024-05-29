@@ -9,7 +9,7 @@ function Skill() {
             </div>
             <div className='section-show-skill'>
                 <div>
-                    <h2 style={{ fontSize: "35px", color: "white" }}>Programming language</h2>
+                    <h2 style={{ color: "white" }}>Programming language</h2>
                     <div className='contain-skill'>
                         <div className='skill-block'>
                             <img src="/golang_official_logo_icon_169092.svg" width="80px" alt="" />
@@ -26,7 +26,7 @@ function Skill() {
                     </div>
                 </div>
                 <div>
-                    <h2 style={{ fontSize: "35px", color: "white" }}>Frondend framwork</h2>
+                    <h2 style={{ color: "white" }}>Frondend framwork</h2>
                     <div className='contain-skill'>
                         <div className='skill-block'>
                             <img src="/react_original_logo_icon_146374.svg" width="80px" alt="" />
@@ -37,7 +37,7 @@ function Skill() {
                     </div>
                 </div>
                 <div>
-                    <h2 style={{ fontSize: "35px", color: "white" }}>Cloud</h2>
+                    <h2 style={{ color: "white" }}>Cloud</h2>
                     <div className='contain-skill'>
                         <div className='skill-block'>
                             <img src="/amazon_logo_icon_169612.svg" width="80px" alt="" />
@@ -48,7 +48,7 @@ function Skill() {
                     </div>
                 </div>
                 <div>
-                    <h2 style={{ fontSize: "35px", color: "white" }}>Database</h2>
+                    <h2 style={{ color: "white" }}>Database</h2>
                     <div className='contain-skill'>
                         <div className='skill-block'>
                             <img src="/postgresql_original_wordmark_logo_icon_146392.svg" width="80px" alt="" />
@@ -62,7 +62,7 @@ function Skill() {
                     </div>
                 </div>
                 <div>
-                    <h2 style={{ fontSize: "35px", color: "white" }}>Other</h2>
+                    <h2 style={{ color: "white" }}>Other</h2>
                     <div className='contain-skill'>
                         <div className='skill-block'>
                             <img src="/docker_icon_146192.svg" width="80px" alt="" />

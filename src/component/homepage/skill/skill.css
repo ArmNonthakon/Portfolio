@@ -1,10 +1,11 @@
-.section-skill{
+.section-skill {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.skill-block{
+
+.skill-block {
     width: 80px;
     height: 80px;
     padding: 20px;
@@ -17,18 +18,25 @@
     margin-right: 50px;
     margin-top: 20px;
 }
-.section-show-skill{
+
+.section-show-skill {
     margin: 20px 50px;
     display: grid;
     grid-template-columns: 40% 40%;
     column-gap: 150px;
     row-gap: 50px;
 }
-.contain-skill{
-    display: flex;
-    justify-content: flex-start;
+.section-show-skill div h2{
+    font-size: 35px;
 }
-.skill-topic:after{
+.contain-skill {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.skill-topic:after {
     content: "";
     animation: skillText 2s;
     animation-fill-mode: forwards;
@@ -37,30 +45,53 @@
 
 
 @keyframes skillText {
-    0%{
+    0% {
         content: "S";
     }
-    20%{
+
+    20% {
         content: "Sk";
     }
-    40%{
+
+    40% {
         content: "Ski";
     }
-    60%{
+
+    60% {
         content: "Skil";
     }
-    80%{
+
+    80% {
         content: "Skill";
     }
-    100%{
+
+    100% {
         content: "Skill";
     }
 }
-@media only screen and (max-width: 600px){
-    .section-show-skill{
+
+@media only screen and (max-width: 900px) {
+    .section-show-skill {
         grid-template-columns: 80%;
     }
-    .contain-skill{
+    .section-show-skill div h2{
+        font-size: 35px;
+    }
+    .contain-skill {
+        display: grid;
+        grid-template-columns: repeat(4,20%);
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section-show-skill {
+        grid-template-columns: 80%;
+    }
+    .section-show-skill div h2{
+        font-size: 28px;
+    }
+    .contain-skill {
         display: grid;
         grid-template-columns: 40% 40%;
         column-gap: 50px;
