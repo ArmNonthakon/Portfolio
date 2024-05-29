@@ -57,3 +57,9 @@
         content: "Project";
     }
 }
+@media only screen and (max-width: 600px){
+    .contain-project{
+        margin: 50px 20px;
+       
+    }
+}
