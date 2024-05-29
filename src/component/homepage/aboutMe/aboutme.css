@@ -60,6 +60,10 @@
     margin-top: 5px;
     cursor: pointer;
 }
+.sec-text button:hover{
+    scale: 1.1;
+    transition: scale 0.5s;
+}
 
 .sec-text-name {
     color: white;

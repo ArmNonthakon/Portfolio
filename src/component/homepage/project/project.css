@@ -34,6 +34,12 @@
 .clikToPage p{
     margin-right: 10px;
 }
+.clikToPage a{
+    color: white;
+}
+.clikToPage a:hover{
+    color: rgba(255, 255, 255, 0.389);
+}
 .text-content-project{
     color: white;
     margin-left:40px;

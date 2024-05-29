@@ -8,10 +8,13 @@ nav {
     top: 0;
     z-index: 1;
     font-size: 26px;
-}
+}   
 nav a {
     text-decoration: none;
     color: #919191;
+}
+nav a:hover{
+    color: #dfdfdf;
 }
 .desktop{
     display: block;

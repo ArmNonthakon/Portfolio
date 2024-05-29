@@ -40,7 +40,10 @@
     margin-top: 40px;
     justify-content: start;
 }
-
+.item-contact:hover{
+    scale: 1.05;
+    transition: scale 0.3;
+}
 #mobile-contact {
     display: none;
 }

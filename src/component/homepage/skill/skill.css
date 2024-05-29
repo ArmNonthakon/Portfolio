@@ -18,6 +18,10 @@
     margin-right: 50px;
     margin-top: 20px;
 }
+.skill-block:hover{
+    scale: 1.2;
+    transition: scale 0.3s;
+}
 
 .section-show-skill {
     margin: 20px 50px;
