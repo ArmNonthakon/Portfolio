@@ -232,6 +232,9 @@
         background-position: center;
         background-size: 100%;
     }
+    .pic-deco{
+        display: none;
+    }
 
     .sec-text-name {
         margin-top: 0;
