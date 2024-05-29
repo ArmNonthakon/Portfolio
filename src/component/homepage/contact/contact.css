@@ -72,8 +72,14 @@
     #destop-contact{
         display: none;
     }
+    .contain-contact a{
+        font-size: 22px;
+    }
     .item-contact{
         margin-top: 40px;
         justify-content: start;
+    }
+    .item-contact img{
+       width: 50px;
     }
 }

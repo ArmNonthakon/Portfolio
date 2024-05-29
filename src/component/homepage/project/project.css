@@ -66,9 +66,15 @@
     .contain-project{
         margin: 50px 22px;  
     }
+    .contain-text{
+        font-size: 16px;
+    }
     .text-content-project{
         color: white;
         margin-left:20px;
         margin-top:20px;
+    }
+    .clikToPage{
+        font-size: 18px;
     }
 }
