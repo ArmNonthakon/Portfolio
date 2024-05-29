@@ -12,7 +12,7 @@ function Project() {
                     <img src="/MY_CAT.png" width="95%" alt="" />
                 </div>
                 <div className='contain-text'>
-                <p style={{ color: "white" ,marginLeft:"40px",marginTop:"20px"}} ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้เกี่ยวกับเว็บไซต์การเก็บข้อมูลรูปภาพ ชื่อ เพศ อายุ สี พันธ์ของน้องแมวแต่ละตัว ภายใรเว็บก็มีฟังก์ชั่นแสดงข้อมูล สามารถเลือกแสดงประเภทข้อมูลได้ว่าต้องการให้แสดงน้องแมวเพศไหน สีอะไร
+                <p className='text-content-project' ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้เกี่ยวกับเว็บไซต์การเก็บข้อมูลรูปภาพ ชื่อ เพศ อายุ สี พันธ์ของน้องแมวแต่ละตัว ภายใรเว็บก็มีฟังก์ชั่นแสดงข้อมูล สามารถเลือกแสดงประเภทข้อมูลได้ว่าต้องการให้แสดงน้องแมวเพศไหน สีอะไร
                 มีฟังก์ชั่นการลบเพิ่มแก้ไขข้อมูล มีระบบ Authentication และ Authorization โปรแกรม Deploy ขึ้น Clound vm โดยใช้ Docker เป็น Docker-compose รันทั้งฝั่งหน้าและหลังบ้านพร้อมกัน ใช้ nginx ช่วยจัดการ</p>
                 </div>
                 <div className='clikToPage'>
@@ -34,7 +34,7 @@ function Project() {
                     <img src="/Fake_news.png" width="95%" alt="" />
                 </div>
                 <div className='contain-text'>
-                <p style={{ color: "white" ,marginLeft:"40px",marginTop:"20px"}} ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้ได้นำ Machine learning มาจำแนกข่าวว่าข่าวใดที่น่าจะเป็นข่าวเท็จ ข่าวใดเป็นข่าวจริง โดยใช้วิธีจำแนกจะจำแนกจากบทความในเนื้อข่าว โดยวิธี NLP </p>
+                <p className='text-content-project' ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้ได้นำ Machine learning มาจำแนกข่าวว่าข่าวใดที่น่าจะเป็นข่าวเท็จ ข่าวใดเป็นข่าวจริง โดยใช้วิธีจำแนกจะจำแนกจากบทความในเนื้อข่าว โดยวิธี NLP </p>
                 </div>
                 <div className='clikToPage'>
                     <p>Programming language : Python</p>
@@ -49,7 +49,7 @@ function Project() {
                     <img src="/4kings.png" width="95%" alt="" />
                 </div>
                 <div className='contain-text'>
-                <p style={{ color: "white" ,marginLeft:"40px",marginTop:"20px"}} ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้ได้นำ Machine learning มาช่วยจำแนกจัดสรรว่าสมาชิกแต่ละคนควรอยู่สถาบันใด และลอง Deploy ขึ้น onrender</p>
+                <p  className='text-content-project' ><spam style={{marginLeft:"60px"}}></spam>โปรเจคนี้ได้นำ Machine learning มาช่วยจำแนกจัดสรรว่าสมาชิกแต่ละคนควรอยู่สถาบันใด และลอง Deploy ขึ้น onrender</p>
                 </div>
                 <div className='clikToPage'>
                     <p>Programming language : Python</p>

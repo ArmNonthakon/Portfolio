@@ -34,6 +34,11 @@
 .clikToPage p{
     margin-right: 10px;
 }
+.text-content-project{
+    color: white;
+    margin-left:40px;
+    margin-top:20px;
+}
 @keyframes projectText {
     0%{
         content: "P";
@@ -59,7 +64,11 @@
 }
 @media only screen and (max-width: 600px){
     .contain-project{
-        margin: 50px 20px;
-       
+        margin: 50px 22px;  
+    }
+    .text-content-project{
+        color: white;
+        margin-left:20px;
+        margin-top:20px;
     }
 }
