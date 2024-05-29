@@ -78,10 +78,6 @@ function Skill() {
                         </div>
                     </div>
                 </div>
-                
-
-
-
             </div>
 
 

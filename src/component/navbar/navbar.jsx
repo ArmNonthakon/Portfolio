@@ -20,13 +20,14 @@ function Navbar() {
         <>
             <nav>
                 <div className="mobile">
-                    <div className="pic-block">
-                    </div>
+                    <a href="/"><div className="pic-block">
+                    </div></a>
+
                     <img src="/list.png" width="35px" height="35px" id="listRo" onClick={showList} alt="" />
                 </div>
                 <div className="desktop">
-                    <div className="pic-block">
-                    </div>
+                    <a href="/"><div className="pic-block">
+                    </div></a>
                 </div>
                 <div id="showListMobile" className="mobileItem">
                     <a href="/">ABOUT ME</a>

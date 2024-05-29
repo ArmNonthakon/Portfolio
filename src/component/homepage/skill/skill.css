@@ -21,8 +21,8 @@
     margin: 20px 50px;
     display: grid;
     grid-template-columns: 40% 40%;
-    column-gap: 10%;
-    row-gap: 10%;
+    column-gap: 150px;
+    row-gap: 50px;
 }
 .contain-skill{
     display: flex;
@@ -54,5 +54,10 @@
     }
     100%{
         content: "Skill";
+    }
+}
+@media only screen and (max-width: 800px){
+    .section-show-skill{
+        grid-template-columns: 80%;
     }
 }

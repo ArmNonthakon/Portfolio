@@ -11,7 +11,7 @@
     animation-iteration-count: 1;
 }
 .section-contain-contact{
-    margin: 50px 70px;
+    margin: 80px 70px;
 }
 .contain-contact{
     display: flex;
@@ -30,6 +30,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#mobile-contact{
+    display: none;
 }
 
 
@@ -60,5 +63,17 @@
     }
     100%{
         content: "Contact me";
+    }
+}
+@media only screen and (max-width: 800px){
+    #mobile-contact{
+        display: block;
+    }
+    #destop-contact{
+        display: none;
+    }
+    .item-contact{
+        margin-top: 40px;
+        justify-content: start;
     }
 }
