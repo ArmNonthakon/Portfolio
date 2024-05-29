@@ -5,6 +5,7 @@
     background-color: #dec088;
     z-index: 0;
     height: 450px;
+
 }
 
 .name-pic {
@@ -207,5 +208,43 @@
 
     100% {
         content: "About me";
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .section-one-aboutme {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sec-text {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(24, 24, 24);
+        padding: 10px;
+    }
+    .name-pic{
+        width: 100%;
+        height: 80%;
+    }
+    .Pic-personal{
+        width: 100%;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .sec-text-name {
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .roadmap{
+        display: none;
+    }
+    .education-road{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .education-road p {
+        width: 100%;
     }
 }
