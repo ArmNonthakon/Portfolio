@@ -2,9 +2,9 @@ import { useState } from "react"
 import "./navbar.css"
 
 function Navbar() {
-    const [stateList,SetStateList] = useState(false)
-    const showList = ()=>{
-        if (stateList == false){
+    const [stateList, SetStateList] = useState(false)
+    const showList = () => {
+        if (stateList == false) {
             document.getElementById('showListMobile').style.display = "flex"
             SetStateList(true)
         }
@@ -12,7 +12,7 @@ function Navbar() {
             document.getElementById('showListMobile').style.display = "none"
             SetStateList(false)
         }
-        
+
     }
     return (
         <>
