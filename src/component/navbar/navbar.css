@@ -61,6 +61,9 @@ nav a {
         animation-name: showList;
         animation-duration: 0.5s;
     }
+    #listRo{
+        transition: transform 1s;
+    }
     @keyframes showList {
         from{margin-top: -250px;}
         to{margin-top: -0px;}

@@ -5,10 +5,12 @@ function Navbar() {
     const [stateList, SetStateList] = useState(false)
     const showList = () => {
         if (stateList == false) {
+            document.getElementById('listRo').style.transform = "rotate(90deg)"
             document.getElementById('showListMobile').style.display = "flex"
             SetStateList(true)
         }
         else {
+            document.getElementById('listRo').style.transform = "rotate(0)"
             document.getElementById('showListMobile').style.display = "none"
             SetStateList(false)
         }
@@ -20,7 +22,7 @@ function Navbar() {
                 <div className="mobile">
                     <div className="pic-block">
                     </div>
-                    <img src="/list.png" width="35px" height="35px" onClick={showList} alt="" />
+                    <img src="/list.png" width="35px" height="35px" id="listRo" onClick={showList} alt="" />
                 </div>
                 <div className="desktop">
                     <div className="pic-block">
