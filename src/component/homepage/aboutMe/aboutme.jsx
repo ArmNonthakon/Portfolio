@@ -24,35 +24,42 @@ function Aboutme() {
             </div>
             <div className='education'>
                 <h1>Education</h1>
-                <div className='roadmap'>
-                    <div className='group-roadmap'>
-                        <div className='dot' id='dot1'></div>
-                        <div className='rec' id='rec1'></div>
-                    </div>
-                    <div className='group-roadmap'>
-                        <div className='dot' id='dot2'></div>
-                        <div className='rec' id='rec2'></div>
-                    </div>
-                    <div className='group-roadmap'>
-                        <div className='dot' id='dot3'></div>
-                    </div>
-                </div>
                 <div className='education-road'>
-                    
-                    <p>2021 - Present
-                        Silpakorn University
-                        bachelor of science in computer science degree
-                        GPA : 2.55</p>
-                        <br />
-                    <p>
-                        2015- 2020
-                        Sirirattanathorn School
-                        English-Mathematics Program
-                        GPA : 2.8
-                    </p>
+                    <div className='block-content-education'>
+                        <div className='group-roadmap'>
+                            <div className='dot' ></div>
+                            <div className='rec' ></div>
+                        </div>
+
+                        <p>2021 - Present
+                            Silpakorn University
+                            bachelor of science in computer science degree
+                            GPA : 2.55</p>
+                    </div>
+
                     <br />
-                    <p>2009 - 2014
-                        Bannongbon School</p>
+                    <div className='block-content-education'>
+                        <div className='group-roadmap'>
+                            <div className='dot' ></div>
+                            <div className='rec' ></div>
+                        </div>
+                        <p>
+                            2015- 2020
+                            Sirirattanathorn School
+                            English-Mathematics Program
+                            GPA : 2.8
+                        </p>
+                    </div>
+
+                    <br />
+                    <div className='block-content-education'>
+                        <div className='group-roadmap'>
+                            <div className='dot' ></div>
+                        </div>
+                        <p>2009 - 2014
+                            Bannongbon School</p>
+                    </div>
+
                 </div>
 
 
