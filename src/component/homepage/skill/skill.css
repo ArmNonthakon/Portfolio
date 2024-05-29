@@ -59,12 +59,11 @@
 @media only screen and (max-width: 600px){
     .section-show-skill{
         grid-template-columns: 80%;
-        margin: 20px 100px;
     }
     .contain-skill{
         display: grid;
         grid-template-columns: 40% 40%;
-        column-gap: 100px;
+        column-gap: 50px;
         row-gap: 50px;
     }
 }
