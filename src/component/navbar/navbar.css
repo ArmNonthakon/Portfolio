@@ -48,6 +48,40 @@ nav a:hover{
       background-color: rgb(52, 54, 55);
       width: 95%;
       flex-direction: column;
+      padding: 14px 15px;
+        
+    }
+    nav a.desktopItem{
+        display: none;
+        
+    }
+    .mobile{
+        display: flex;
+    }
+    .mobileItem a{
+        padding: 20px;
+    }
+    .mobileItem{
+        animation-name: showList;
+        animation-duration: 0.5s;
+    }
+    #listRo{
+        transition: transform 1s;
+    }
+    @keyframes showList {
+        from{margin-top: -250px;}
+        to{margin-top: -0px;}
+    }
+  }
+
+@media only screen and (max-width: 450px) {
+    .desktop {
+        display: none;
+    }
+    nav {
+      background-color: rgb(52, 54, 55);
+      width: 95%;
+      flex-direction: column;
       padding: 14px 10px;
         
     }
