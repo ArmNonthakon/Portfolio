@@ -22,11 +22,37 @@ function Project() {
                     <p>Backend : Golang(Fiber)</p>
                 </div>
                 <div className='clikToPage'>
-                    <p>Visit github</p><a href="https://github.com/ArmNonthakon/Full-stack-catcat">Click here</a>
+                    <p>Web design: Figma</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit github</p><a href="https://github.com/ArmNonthakon/Full-stack-catcat">Click here!!</a>
                 </div>
                 <div className='clikToPage'>
                     <p>Visit website</p><a href="http://139.5.147.97/">Click here</a>
                 </div>
+
+                <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Web portfolio </h2>
+                <div className='contain-pic'>
+                    <img src="/Portfolio - Google Chrome 5_29_2024 11_51_46 PM.png" width="95%" style={{border:"2px solid black"}} alt="" />
+                </div>
+                <div className='contain-text'>
+                <p className='text-content-project' ><spam style={{marginLeft:"60px"}}></spam>เว็บพอร์ตที่ออกแบบและเขียเป็น Static website เริ่มด้วยออกแบบผ่าน Figma และเริ่มเขียนออกเป็นตัวเว็บโดยใช้เป็น React.js ในการเขียน</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Frondend framework: React.js</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Web design: Figma</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit github</p><a href="https://github.com/ArmNonthakon/Portfolio">Click here</a>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit website</p><a href="https://pofolio-nonthakon-tansamai.vercel.app/">Click here</a><p style={{fontSize:"12px",color:"red",marginLeft:"5px",marginBottom:"3px"}}>( ถ้า Click ก็จะวนมาที่เว็บนี้แหละะ )</p>
+                </div>
+
+
+
 
 
                 <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Fake news machine learning </h2>
@@ -42,6 +68,7 @@ function Project() {
                 <div className='clikToPage'>
                     <p>Visit github</p><a href="https://github.com/ArmNonthakon/Fakes-News-Machine-learning">Click here</a>
                 </div>
+
 
 
                 <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >4king </h2>
