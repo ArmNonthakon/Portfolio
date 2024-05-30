@@ -48,7 +48,7 @@ function Project() {
                     <p>Visit github</p><a href="https://github.com/ArmNonthakon/Portfolio">Click here</a>
                 </div>
                 <div className='clikToPage'>
-                    <p>Visit website</p><a href="https://pofolio-nonthakon-tansamai.vercel.app/">Click here</a><p style={{fontSize:"12px",color:"red",marginLeft:"5px",marginBottom:"3px"}}>( ถ้า Click ก็จะวนมาที่เว็บนี้แหละะ )</p>
+                    <p>Visit website</p><a href="https://portfolio-nonthakon-tansamai.vercel.app/">Click here</a><p style={{fontSize:"12px",color:"red",marginLeft:"5px",marginBottom:"3px"}}>( ถ้า Click ก็จะวนมาที่เว็บนี้แหละะ )</p>
                 </div>
 
 
