@@ -88,6 +88,29 @@ function Project() {
                     <p>Visit website</p><a href="https://deploy-4kings.onrender.com/">Click here</a>
                 </div>
                 
+                <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Koala shop(กำลังทดลองเขียน) </h2>
+                <div className='contain-pic'>
+                    <img src="/KOALA Shop - Google Chrome 6_4_2024 2_35_14 PM.png" width="95%" alt="" />
+                </div>
+                <div className='contain-text'>
+                <p  className='text-content-project' ><spam style={{marginLeft:"60px"}}></spam>เว็บขายสินค้า แสดงสินค้าเสื้อผ้า</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Frondend framework: React.js</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Programming language : Golang</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Web design: Figma</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit github</p><a href="https://github.com/ArmNonthakon/KOALA-Shop">Click here</a>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit website</p><a href="https://koala-shop.vercel.app/">Click here</a>
+                </div>
+
 
                 <div className='clikToPage' style={{marginTop:"100px"}}>
                     <p>Visit other Project</p><a href="https://github.com/ArmNonthakon">Click here</a>
