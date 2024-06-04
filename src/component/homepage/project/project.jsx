@@ -88,7 +88,7 @@ function Project() {
                     <p>Visit website</p><a href="https://deploy-4kings.onrender.com/">Click here</a>
                 </div>
                 
-                <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Koala shop(กำลังทดลองเขียน) </h2>
+                <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Koala shop<p style={{fontSize:"30px"}}>(กำลังทดลองเขียน)</p> </h2>
                 <div className='contain-pic'>
                     <img src="/KOALA Shop - Google Chrome 6_4_2024 2_35_14 PM.png" width="95%" alt="" />
                 </div>
