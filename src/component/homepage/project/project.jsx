@@ -7,6 +7,27 @@ function Project() {
                 <h1 style={{ fontSize: "50px", color: "white" }} className='project-topic'></h1>
             </div>
             <div className='contain-project'>
+            <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px"}} >Minor cineplex </h2>
+                <div className='contain-pic'>
+                    <img src="/minor_cineplex.png" width="95%" alt="" />
+                </div>
+                <div className='contain-text'>
+                <p className='text-content-project' ><spam style={{marginLeft:"60px"}}></spam>เป็นโปรเจคที่ได้ทดลองจะทำการโคลนเว็บไซต์ของทาง Major cineplex อาจจะไม่ได้โคลนมาทุกฟีเจอร์ หลักๆก็จะเป็นแสดงรายการหนัง แสดงที่นั่งของแต่ละโรงหนัง และจองตั๋วหนัง จะมีเพิ่มฟีเจอร์ล็อกอินกับลงทะเบียนที่ออกแบบและเขียนเพิ่ม</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Fronend : React</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Backend : Golang(Fiber)</p>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit github</p><a href="https://github.com/ArmNonthakon/Minor-Cineplex">Click here!!</a>
+                </div>
+                <div className='clikToPage'>
+                    <p>Visit website</p><a href="http://139.5.147.97/">Click here</a>
+                </div>
+
+
                 <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px"}} >Catcat </h2>
                 <div className='contain-pic'>
                     <img src="/MY_CAT.png" width="95%" alt="" />
@@ -88,7 +109,7 @@ function Project() {
                     <p>Visit website</p><a href="https://deploy-4kings.onrender.com/">Click here</a>
                 </div>
                 
-                <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Koala shop<p style={{fontSize:"30px"}}>(กำลังทดลองเขียน)</p> </h2>
+                <h2 style={{ fontSize: "40px", color: "white" ,marginBottom:"20px",marginTop:"40px"}} >Koala shop</h2>
                 <div className='contain-pic'>
                     <img src="/KOALA Shop - Google Chrome 6_4_2024 2_35_14 PM.png" width="95%" alt="" />
                 </div>
